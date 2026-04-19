@@ -1,7 +1,7 @@
 describe('template spec', () => {
   beforeEach(() => {
     //Arrange (preparacao)
-    cy.visit(cy.env('URL'))
+    cy.visit('/')
   })
   it('login com dados válidos deve permitir entrada no sistema', () => {    
     //Act (ação)
