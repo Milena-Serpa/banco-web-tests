@@ -1,4 +1,4 @@
-````markdown
+
 # Banco Web Tests
 
 ##  Objetivo
@@ -41,11 +41,11 @@ npm install
 ```bash
 # Terminal 1 - API
 cd ../banco-api
-npm start
+npm run rest-api
 
 # Terminal 2 - Aplicação Web
 cd ../banco-web
-npm start
+npm run server
 ```
 
 ### Executar os Testes
@@ -91,19 +91,6 @@ Os comandos customizados estão organizados em:
 
 Para utilizar um comando customizado em seus testes, basta chamar cy.<nomeDoComando>().
 
-**Uso:**
-```javascript
-cy.LoginWithInvalidCredentials()
-```
-
-### `cy.CheckMessageInToast(message)`
-Verifica se uma mensagem específica aparece em um toast (notificação).
-
-**Uso:**
-```javascript
-cy.CheckMessageInToast('Erro no login. Tente novamente.')
-```
-
 ## 📂 Estrutura do Projeto
 
 ```
@@ -125,3 +112,4 @@ banco-web-tests/
 Os relatórios são gerados automaticamente após a execução dos testes com **cypress-mochawesome-reporter**. Acesse a pasta de relatórios gerada para visualizar os resultados em HTML.
 
 ---
+
