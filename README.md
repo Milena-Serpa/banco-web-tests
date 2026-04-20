@@ -28,7 +28,7 @@ Antes de começar, certifique-se de ter:
 
 1. Clone o repositório:
 ```bash
-git clone <url-do-repositorio>
+git clone <(https://github.com/Milena-Serpa/banco-web-tests)>
 cd banco-web-tests
 ```
 
